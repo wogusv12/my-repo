@@ -3,7 +3,7 @@ kind: Deployment
 metadata: 
   name: nginx-declarative 
 spec: 
-  replicas: 5  # <- "명령 2"가 이미 포함됨 
+  replicas: 1  # <- "명령 2"가 이미 포함됨 
   selector: 
     matchLabels: 
       app: nginx 
